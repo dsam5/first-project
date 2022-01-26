@@ -1,0 +1,72 @@
+
+.nav-bar{
+    display: flex;
+}
+.link-container{
+    margin-left: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    color:black ;
+    font-weight: bold;
+    transition: 500ms;
+}
+a:hover{
+font-size: 50px;
+}
+.animate{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    transition: 300ms;
+}
+.animate:hover{
+    width: 300px;
+    background-color: blue;
+}
+button{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 999px;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    transition: 500ms;
+}
+button:hover{
+        background-color: black;
+        color: white;
+}
+button:active{
+        background-color: blue;
+}   
+p{
+    text-decoration: none;
+}
+P{
+    text-transform: uppercase;
+    text-align: center;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    /* background-color: blue; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./img3.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
